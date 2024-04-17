@@ -17,7 +17,9 @@ body {
 
 #container {
     background-color: rgb(22, 22, 22);
-    padding: 20%
+    padding: 20%;
+    border-radius: 10px;
+    transform: scale(1.5);
 }
 
 /* -------------------------------------------------------------------------- */
@@ -36,11 +38,49 @@ body {
     width: 200px;
     height: 200px;
     margin: 0 auto;
+    transition: transform 0.15s, box-shadow 1s;
 }
   
 .zoom:hover {
-    transform: scale(1.5); 
+    transform: scale(1.2); 
+    box-shadow: 0px 0px 5px rgba(170, 66, 255, 0.596);
 }
 
 /* -------------------------------------------------------------------------- */
+
+#header {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.name, .address, #about {
+    text-align: center;
+}
+
+.name {
+    color: white;
+    margin-bottom: 7px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.address {
+    color: rgb(170, 66, 255);
+    font-size: 11px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+#about {
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+#bottom-section {
+    margin-top: 20px;
+}
 
