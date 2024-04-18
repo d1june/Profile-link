@@ -119,3 +119,29 @@ body {
 .btn-style:active, .bottom-btn:active {
     background-color: rgb(184, 96, 255);
 }
+
+/* ---------------------------- Responsive Layout --------------------------- */
+
+@media (max-width: 517px) {
+
+    p, h2 {
+        transform: scale(0.95);
+    }
+
+    #img {
+        height: 69px;
+        width: 69px;
+    }
+
+    #container {
+        transform: scale(1.35);
+        padding: 10%;
+        transition: ease all 0.4s;
+    }
+
+    #center {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
