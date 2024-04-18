@@ -102,13 +102,15 @@ body {
     border-radius: 5px;
     padding-top: 9px;
     padding-bottom: 9px;
+    text-decoration: none;
+    text-align: center;
     transition: background-color 0.15s, color 0.15s;
 }
 
 /* -------------------------- animation for buttons ------------------------- */
 
 .btn-style:hover, .bottom-btn:hover {
-    background-color: rgb(170, 66, 255);
+    background-color: rgb(162, 53, 252);
     color: rgb(15, 15, 15);
     font-weight: 700;
     cursor: pointer;
